@@ -1,8 +1,12 @@
 import React from 'react'
+import SignUpCard from '../componants/SignUpCard'
+import Layout from '../componants/Layout'
 
 function SignUp() {
   return (
-    <div>SignUp</div>
+    <Layout>
+    <SignUpCard></SignUpCard>
+    </Layout>
   )
 }
 

@@ -1,8 +1,12 @@
 import React from 'react'
+import Layout from '../componants/Layout'
+import ContactBody from '../componants/ContactBody'
 
 function Contact() {
   return (
-    <div>Contact</div>
+    <Layout>
+        <ContactBody></ContactBody>
+    </Layout>
   )
 }
 

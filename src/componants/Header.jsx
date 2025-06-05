@@ -10,9 +10,9 @@ function Header (){
     <header className="header">
       <div className="header-logo">MyLogo</div>
       <nav className="header-nav">
-        <a href="#">Accueil</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
+        <a href="/home">Accueil</a>
+        <a href="/services">Services</a>
+        <a href="/contact">Contact</a>
       </nav>
       <HeaderButtons />
     </header>

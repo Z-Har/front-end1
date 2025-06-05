@@ -9,9 +9,9 @@ const Layout = ({ children }) => {
     <div className="min-h-screen flex flex-col text-gray-900 bg-gray-100">
       <Header />
       <div className="flex flex-1">
-        <SidebarLeft />
+        
         <main className="flex-1 p-6 bg-gray-50">{children}</main>
-        <SidebarRight />
+        
       </div>
       <Footer />
     </div>

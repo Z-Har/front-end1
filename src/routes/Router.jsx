@@ -9,11 +9,13 @@ import Settings from '../pages/Settings'
 import About from '../pages/About'
 import Contact from '../pages/Contact'
 import NotFound from '../pages/NotFound'
+import Services from '../pages/Services'
 
 function Router() {
   return (
     <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/services" element={<Services />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/profile" element={<Profile />} />
